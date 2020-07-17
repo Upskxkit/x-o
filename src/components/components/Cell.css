@@ -1,0 +1,26 @@
+.board-cell {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: 0.3s background-color;
+    cursor: pointer;
+}
+
+.board-cell.x {
+    background: grey;
+}
+
+.x .board-cell:hover {
+    background: rgba(128, 128, 128, 0.75);
+}
+
+.board-cell.o {
+    background: yellow;
+}
+
+.o .board-cell:hover {
+    background: rgba(99, 61, 61, 0.75);
+}

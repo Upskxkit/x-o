@@ -1,0 +1,14 @@
+:root {
+    --board-width: 360px;
+}
+
+.board {
+    width: var(--board-width);
+    height: var(--board-width);
+    background: #dfff02;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    left: calc(50% - 180px);
+    top: calc(50% - 180px);
+}
